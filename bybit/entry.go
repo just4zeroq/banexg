@@ -392,7 +392,7 @@ func New(Options map[string]interface{}) (*Bybit, *errs.Error) {
 					banexg.ApiFetchTickers:          banexg.HasOk,
 					banexg.ApiFetchTickerPrice:      banexg.HasOk,
 					banexg.ApiLoadLeverageBrackets:  banexg.HasOk,
-					banexg.ApiFetchCurrencies:       banexg.HasOk,
+					banexg.ApiFetchCurrencies:       banexg.HasFail,
 					banexg.ApiGetLeverage:           banexg.HasOk,
 					banexg.ApiFetchOHLCV:            banexg.HasOk,
 					banexg.ApiFetchOrderBook:        banexg.HasOk,
